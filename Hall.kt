@@ -25,7 +25,6 @@ class Hall : Fragment() {
     var mSeekbar1:AppCompatSeekBar?=null
     var mSeek1Text:TextView?=null
 
-    var sendObj:SendRecvClass?=null
     var mOutputStream: OutputStream?=null
     var getState:Int=0
 

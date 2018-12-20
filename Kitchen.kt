@@ -18,7 +18,6 @@ class Kitchen : Fragment() {
     var mSwitchB1: SwitchCompat?=null
     var mSwitchB2: SwitchCompat?=null
 
-    var sendObj:SendRecvClass?=null
     var mOutputStream: OutputStream?=null
 
     var getState:Int=0

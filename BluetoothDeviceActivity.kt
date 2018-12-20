@@ -104,9 +104,6 @@ class BluetoothDeviceActivity : AppCompatActivity() {
     var availDev = mutableListOf<BluetoothDevice>()
     var mDevice:BluetoothDeviceActivity?=null
     var isBtConnected = false
-
-    private var sendRecv: SendRecvClass? = null
-
     var deviceAdd:String?=null
     var pAdapter: ArrayAdapter<String>?=null
     var aAdapter: ArrayAdapter<String>?=null
